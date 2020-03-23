@@ -1,0 +1,47 @@
+form{
+    margin: 20vh auto 0;
+    width: 600px;
+    text-align: center;
+}
+textarea{
+    font-size: 2vh;
+    width: 500px;
+    margin: 0 50px;
+    border: 2px solid black;
+    border-radius: 15px;
+    padding: 1vh;
+}
+input[type="number"]{
+    font-size: 2vh;
+    width: 200px;
+    margin: 0 50px;
+    border: 2px solid black;
+    border-radius: 15px;
+    padding: 1vh;
+    text-align: center;
+    display: block;
+    margin: 5vh auto;
+}
+input[type="button"]{
+    display: block;
+    font-size: 3vh;
+    padding: 2vh;
+    background-color: black;
+    color: white;
+    border-radius: 20px;
+    box-shadow: 0 0 5px black;
+    margin: 2vh auto;
+    border: none;
+}
+input:active{
+    transform: scale(0.9);
+}
+textarea:focus, input:focus{
+    outline: none;
+}
+p{
+    padding: 2vh 10vh 2vh;
+    border: 2px solid black;
+    border-radius: 15px;
+    margin: 5vh 5vh;
+}
